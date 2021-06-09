@@ -12,7 +12,7 @@
 #include <services/task.h>
 #include <utils/api_utils.h>
 #include <data/models/list_item.h>
-#include <data/delegates/list_delegate.h>
+#include <data/delegates/book_delegate.h>
 
 #include "book_select.h"
 #include "ui_book_select.h"
@@ -133,8 +133,8 @@ void BookSelect::showProgress(bool show)
 
 void BookSelect::createListView()
 {
-	ListDelegate* listDelegate = new ListDelegate(this);
-	ui->LstBooks->setItemDelegate(listDelegate);
+    BookDelegate* bookDelegate = new BookDelegate(this);
+    //ui->LstBooks->setItemDelegate(bookDelegate);
 	ui->LstBooks->setModel(bookModel);
 	ui->LstBooks->setViewMode(QListView::ListMode);
 	ui->LstBooks->setDragEnabled(true);

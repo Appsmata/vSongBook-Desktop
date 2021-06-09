@@ -1,16 +1,8 @@
 <RCC>
     <qresource prefix="/images">
-        <file>Bigger_Black.png</file>
-        <file>Bigger_White.png</file>
-        <file>Bold_Black.png</file>
-        <file>Bold_White.png</file>
+        <file>About.png</file>
         <file>Check.png</file>
         <file>Color.png</file>
-        <file>Font_Black.png</file>
-        <file>Font_White.png</file>
-        <file>Smaller_Black.png</file>
-        <file>Smaller_White.png</file>
-        <file>About.png</file>
         <file>check.png</file>
         <file>cyclic.gif</file>
         <file>Down_Black.png</file>
